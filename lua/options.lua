@@ -7,7 +7,7 @@ opt.ignorecase = true                   -- Ignore case in search patterns.
 opt.smartcase = true                    -- Don't ignore case with capitals.
 opt.matchpairs = '(:),{:},[:],=:;'      -- Characters that form pairs.
 opt.relativenumber = true               -- Show line numbers relative to a cursor.
-opt.scrolloff = 4                       -- Number of lines above and below the cursor.
+opt.scrolloff = 999                       -- Number of lines above and below the cursor.
 opt.sidescrolloff = 8                   -- Number of line left and right of the cursor.
 opt.statusline = '%<%F (%l/%L) %m%r%=%c%V' -- Customize statusline.
 opt.tabstop = 2                         -- Number of spaces that in a <Tab>.
